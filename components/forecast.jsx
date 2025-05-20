@@ -14,7 +14,7 @@ const Forecast = () => {
 
             return <View key={index} style={{
               margin: 5,
-              backgroundColor: '#f95a2c',
+              backgroundColor: '#b1effe',
               padding: 10,
               borderRadius: 10
             }}>

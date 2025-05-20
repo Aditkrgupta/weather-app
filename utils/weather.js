@@ -1,7 +1,8 @@
 export const getWeatherByCity = async (city) => {
     try {
-
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.EXPO_PUBLIC_API_KEY}`;
+    
+    
+         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.EXPO_PUBLIC_API_KEY}`;
         const res = await fetch(url);
         const data = await res.json();
 
@@ -14,7 +15,7 @@ export const getWeatherByCity = async (city) => {
 export const getForecastByCity = async (city) => {
     try {
 
-        const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${process.env.EXPO_PUBLIC_API_KEY}`;
+       const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${process.env.EXPO_PUBLIC_API_KEY}`;
         const res = await fetch(url);
         const data = await res.json();
 

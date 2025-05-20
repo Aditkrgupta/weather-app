@@ -36,3 +36,8 @@ EXPO_PUBLIC_API_KEY=your_openweather_api_key
 ```bash
 npx expo start
 ```
+### 5. 📹 Demo Video
+```
+Watch the working APK demo here:  
+[![Watch the video](https://img.shields.io/badge/Click%20to%20Watch-Demo%20Video-blue?style=for-the-badge)](https://www.mediafire.com/file/ge21dgogbsatrf6/Screen_Recording_2025-05-20_145959.mp4/file)
+```
